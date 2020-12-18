@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- html done by Ben-->
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+	</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<h1 id="head" onmouseover="change()" onmouseout="normal()"> B.L.T. QUALITY MEAL </h1>
+
+		</header>
+		<nav class="menu">
+			<a href="index.html">Home</a>
+			<a href="about.html">About us</a>
+			<a href="contact.html">Bookings</a>
+      <a id="fun" href="minigame.html">minigame</a>
+
+
+		</nav>
+
+		<aside class="contact">
+      <h2>Bookings</h2>
+      <ul>
+        <li>phone number - 0850101010</li>
+        <li>email - blt@gmail.com</li>
+        <li>instagram - blt_restaurant</li>
+      </ul>
+
+
+		</aside>
+
+		<article class="main">
+      <h1>BLT Quality Meal at a Quality Price</h1>
+      <p>Here at BLT we pride ourselves on using eco friendly practices and materials.
+        We are situated on the Quays in Dublin City Center.We have been in the business since 1935 after the founding fathers of our great restaurant set up in New York City.
+        We use purely Irish products and are proud to be an Irish Business.
+        In 2010 we opened a second branch of our restaurant smack dab in the middle of Dublin City Centre and the business has been bustling since we opened our doors!</p>
+
+
+
+			<div id="home-image">
+			<img src="images/blt.png" alt="blt image" width="400" height="400">
+			</div>
+
+
+		</article>
+
+
+		<footer>
+			&copy; 2020 B.L.T website&nbsp;<span class="separator">|</span>Designed by Leslie Shimba
+
+
+		</footer>
+
+
+
+
+
+
+	</div>
+  <script>
+  //javascript done by Tom//
+  function change(){
+    document.getElementById("head").innerHTML = "BEN.LESLIE.TOM";
+    document.getElementById("fun").innerHTML = "super fun!!!";
+
+
+}
+function normal() {
+  document.getElementById("head").innerHTML = "B.L.T. QUALITY MEAL";
+  document.getElementById("fun").innerHTML = "minigame";
+
+}
+
+  </script>
+
+
+
+</body>
+</html>

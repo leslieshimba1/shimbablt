@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- html done by Ben-->
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+	</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<h1 id="head" onmouseover="change()" onmouseout="normal()">BLT QUALITY MEAL</h1>
+
+		</header>
+		<nav class="menu">
+			<a href="index.html">Home</a>
+			<a href="about.html">About us</a>
+			<a href="contact.html">Bookings</a>
+      <a id="fun" href="minigame.html">minigame</a>
+
+
+		</nav>
+
+
+
+		<article class="main">
+			<div id="form">
+				<fieldset>
+				<legend id="blue" onmouseover="change()" onmouseout="normal">Personal Information</legend>
+				<p>
+				<label for="name">Name</label>
+				<input type="text" name="name">
+				</p>
+				<p>
+				<label for="name">email</label>
+				<input type="text" name="email">
+				</p>
+				<p>
+				<label for="name">Meal</label>
+				<input type="text" name="menu">
+				</p>
+				<p>
+				<label for="name">Message</label>
+				<textarea name="message" cols="30" rows="10"></textarea>
+					</p>
+				<input type="submit" value="submit">
+				</fieldset>
+				</form>
+			</div>
+
+		</article>
+
+
+		<footer>
+			&copy; 2020 Belt website&nbsp;<span class="separator">|</span>Designed by Leslie Shimba
+
+
+		</footer>
+
+
+
+
+
+
+	</div>
+  <script>
+  //javascript done by Tom//
+  function change(){
+    document.getElementById("head").innerHTML = "BEST IN TOWN!!!";
+    document.getElementById("blue").style.color = "blue";
+    document.getElementById("fun").innerHTML = "super fun!!!";
+
+
+}
+function normal() {
+  document.getElementById("head").innerHTML = "B.L.T. QUALITY MEAL";
+    document.getElementById("blue").style.color = "#444444";
+    document.getElementById("fun").innerHTML = "minigame";
+
+}
+
+  </script>
+
+
+
+</body>
+</html>
